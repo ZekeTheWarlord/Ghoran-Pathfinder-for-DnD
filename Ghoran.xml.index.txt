@@ -1,0 +1,48 @@
+<RaceList>
+  <Race name="Ghoran">
+    <Description>
+      Ghorans are plant-like humanoids known for their beautiful, flowing forms. Created by ancient druids, they possess a strong connection to nature and an adaptable physical form.
+    </Description>
+    
+    <!-- Ability Score Bonuses -->
+    <AbilityScoreModifiers>
+      <Strength>0</Strength>
+      <Dexterity>2</Dexterity>
+      <Constitution>1</Constitution>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreModifiers>
+    
+    <!-- Size and Speed -->
+    <Size>Medium</Size>
+    <Speed>30</Speed>
+    
+    <!-- Traits -->
+    <Traits>
+      <Trait name="Photosynthesis">
+        <Description>You do not need to eat as long as you have access to sunlight for at least 4 hours per day.</Description>
+      </Trait>
+      <Trait name="Plant Regeneration">
+        <Description>As a plant-based creature, you can regrow lost limbs over time. Once per long rest, you can regain hit points equal to your level when resting in sunlight.</Description>
+      </Trait>
+      <Trait name="Natural Armor">
+        <Description>Your tough plant-like skin grants you a natural armor bonus. When unarmored, your AC is 13 + your Dexterity modifier.</Description>
+      </Trait>
+      <Trait name="Fey Ancestry">
+        <Description>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</Description>
+      </Trait>
+    </Traits>
+    
+    <!-- Languages -->
+    <Languages>
+      <Language>Common</Language>
+      <Language>Sylvan</Language>
+    </Languages>
+    
+    <!-- Proficiencies -->
+    <Proficiencies>
+      <Proficiency>Nature</Proficiency>
+    </Proficiencies>
+  </Race>
+</RaceList>
